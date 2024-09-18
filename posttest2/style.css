@@ -1,0 +1,271 @@
+body {
+    background-image: url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Lato", sans-serif;
+    overflow: auto;
+    width: 100%;
+    margin: 0;
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 150%;
+    backdrop-filter: blur(24px);
+}
+
+.container1{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 60px;
+    padding-top: 30px;
+    width: 40%;
+    height: 117%;
+    top: 30px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px;
+    left: 28.3%;
+}
+
+.container2{
+    border: 1px solid white;
+    padding-top: 5px;
+    width: 36.5%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px black;
+    position: absolute;
+    display: flex;
+    top: 33%;
+    left: 31.3%;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.container3{
+    border: 1px solid white;
+    box-shadow: 0px 4px 10px black;
+    position: absolute;
+    display: flex;
+    height: 30%;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 30px;
+    width: 36.5%;
+    top: 85%;
+    left: 31.3%;
+}
+
+h1 {
+    color: white;
+    font-weight: 900;
+}
+
+h2{
+    position: absolute;
+    display: flex;
+}
+
+p {
+    color: white;
+    font-size: 100%;
+}
+
+.billing{
+    color: white;
+    font-weight: 900;
+    font-size: 120%;
+    margin-top: 10px;
+}
+
+.billing2{
+    color: white;
+    font-weight: 900;
+    font-size: 120%;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-align: left;
+}
+
+.billing3{
+    color: white;
+    font-weight: 900;
+    font-size: 120%;
+    height: auto;
+    width: auto;
+    padding-left: 100px;
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.logo {
+    max-width: 20%;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px;
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+
+.picture{
+    height: auto;
+    max-width: 50%
+}
+
+td{
+    padding-top: 5%;
+}
+
+th{
+    padding-top: 5%;
+}
+
+.description {
+    padding-left: 2%; 
+    vertical-align: middle;
+    position: relative;
+}
+
+.pesanan {
+    color: white;
+    display: inline-box;
+    position: relative;
+    bottom: 8px;
+    font-weight: 900;
+    right: 40px;
+}
+
+.pesanan2{
+    color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 4px;
+    right: 40px;
+}
+
+.harga{
+    color: white;
+    position: relative;
+    display: inline-block;
+    left: 270%;
+    bottom: 18px;
+    font-weight: 900;
+}
+
+.harga2{
+    color: white;
+    position: relative;
+    display: inline-block;
+    left: 300%;
+    bottom: -0.2vh;
+    font-weight: 900;
+}
+
+.line {
+    height: 1px;
+    background: white;
+    position: absolute;
+    width: 39%;
+    margin-left: 54%;
+}
+
+.line2 {
+    height: 1px;
+    background: white;
+    position: absolute;
+    width: 93.5%;
+}
+
+.total{
+    color: white;
+    position: relative;
+    display: flex;
+    font-weight: 900;
+    left: 300%;
+    top: 1vh;
+}
+
+.pembeli, .pembeli2, .pembeli3, .pembeli4{
+    color: white;
+    display: flex;
+    line-height: 25px;
+    position: relative;
+    font-weight: 900;
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+.paymentmethod{
+    display: inline-block;
+    color: white;
+    line-height: 25px;
+    font-weight: 900;
+}
+
+.radios{
+    position: relative;
+    display: block;
+    line-height: 58px;
+    padding-left: 100px;
+    bottom: 260px;
+}
+
+.trademark {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    z-index: 100;
+}
+
+.space1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*comot w3schools*/
+/* Scrollbar Custom*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #6e6e6e; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
